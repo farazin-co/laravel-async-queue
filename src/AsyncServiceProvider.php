@@ -1,9 +1,9 @@
 <?php
 
-namespace Barryvdh\Queue;
+namespace FarazinCo\Queue;
 
-use Barryvdh\Queue\Connectors\AsyncConnector;
-use Barryvdh\Queue\Console\AsyncCommand;
+use FarazinCo\Queue\Connectors\AsyncConnector;
+use FarazinCo\Queue\Console\AsyncCommand;
 use Illuminate\Support\ServiceProvider;
 
 class AsyncServiceProvider extends ServiceProvider
