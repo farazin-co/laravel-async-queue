@@ -1,5 +1,5 @@
 <?php
-namespace Barryvdh\Queue;
+namespace FarazinCo\Queue;
 
 use Illuminate\Database\Connection;
 use Illuminate\Queue\DatabaseQueue;
