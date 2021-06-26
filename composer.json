@@ -1,12 +1,12 @@
 {
-    "name": "barryvdh/laravel-async-queue",
+    "name": "farazin-co/laravel-async-queue",
     "description": "Async Queue Driver for Laravel (Push to background)",
     "keywords": ["laravel", "queue", "async", "background"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
+            "name": "Hosein Askari",
+            "email": "h.askari.16@gmail.com"
         }
     ],
     "require": {
@@ -26,7 +26,7 @@
         },
         "laravel": {
             "providers": [
-                "Barryvdh\\Queue\\AsyncServiceProvider"
+                "FarazinCo\\Queue\\AsyncServiceProvider"
             ]
         }
     }
