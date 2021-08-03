@@ -3,9 +3,9 @@
 ## Push a function/closure to the background.
 
 
-### For Laravel 5.4, check the [0.6 branch](https://github.com/FarazinCo/laravel-async-queue/tree/v0.6.0)
+### For Laravel 5.4, check the [0.6 branch](https://github.com/NovadayCo/laravel-async-queue/tree/v0.6.0)
 
-### For Laravel 5.3, check the [0.5 branch](https://github.com/FarazinCo/laravel-async-queue/tree/v0.5.0)
+### For Laravel 5.3, check the [0.5 branch](https://github.com/NovadayCo/laravel-async-queue/tree/v0.5.0)
 
 Just like the 'sync' driver, this is not a real queue driver. It is always fired immediatly.
 The only difference is that the closure is sent to the background without waiting for the response.
@@ -17,11 +17,11 @@ This package is more usable as an alternative for running incidental tasks in th
 
 Require the latest version of this package with Composer
 
-    composer require FarazinCo/laravel-async-queue
+    composer require NovadayCo/laravel-async-queue
 
 Add the Service Provider to the providers array in config/app.php
 
-    FarazinCo\Queue\AsyncServiceProvider::class,
+    NovadayCo\Queue\AsyncServiceProvider::class,
 
 You need to create the migration table for queues and run it.
 

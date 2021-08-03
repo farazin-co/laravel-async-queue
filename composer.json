@@ -1,5 +1,5 @@
 {
-    "name": "farazin-co/laravel-async-queue",
+    "name": "novaday-co/laravel-async-queue",
     "description": "Async Queue Driver for Laravel (Push to background)",
     "keywords": ["laravel", "queue", "async", "background"],
     "license": "MIT",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FarazinCo\\Queue\\": "src/"
+            "NovadayCo\\Queue\\": "src/"
         }
     },
     "extra": {
@@ -30,7 +30,7 @@
         },
         "laravel": {
             "providers": [
-                "FarazinCo\\Queue\\AsyncServiceProvider"
+                "NovadayCo\\Queue\\AsyncServiceProvider"
             ]
         }
     }

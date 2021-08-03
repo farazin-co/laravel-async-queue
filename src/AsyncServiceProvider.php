@@ -1,9 +1,9 @@
 <?php
 
-namespace FarazinCo\Queue;
+namespace NovadayCo\Queue;
 
-use FarazinCo\Queue\Connectors\AsyncConnector;
-use FarazinCo\Queue\Console\AsyncCommand;
+use NovadayCo\Queue\Connectors\AsyncConnector;
+use NovadayCo\Queue\Console\AsyncCommand;
 use Illuminate\Support\ServiceProvider;
 
 class AsyncServiceProvider extends ServiceProvider

@@ -1,5 +1,5 @@
 <?php
-namespace FarazinCo\Queue;
+namespace NovadayCo\Queue;
 
 use Illuminate\Database\Connection;
 use Illuminate\Queue\DatabaseQueue;

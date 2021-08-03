@@ -1,8 +1,8 @@
 <?php
 
-namespace FarazinCo\Queue\Console;
+namespace NovadayCo\Queue\Console;
 
-use FarazinCo\Queue\AsyncQueue;
+use NovadayCo\Queue\AsyncQueue;
 use Illuminate\Console\Command;
 use Illuminate\Queue\Worker;
 use Illuminate\Queue\WorkerOptions;

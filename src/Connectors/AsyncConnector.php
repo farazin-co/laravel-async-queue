@@ -1,8 +1,8 @@
 <?php
 
-namespace FarazinCo\Queue\Connectors;
+namespace NovadayCo\Queue\Connectors;
 
-use FarazinCo\Queue\AsyncQueue;
+use NovadayCo\Queue\AsyncQueue;
 use Illuminate\Queue\Connectors\DatabaseConnector;
 use Illuminate\Support\Arr;
 
